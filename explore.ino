@@ -1,3 +1,5 @@
+#include <NewPing.h>
+
 //Define the states of the machine
 #define STOP_S 0
 #define FORWARD_S 1
@@ -6,6 +8,8 @@
 #define TURN_LEFT_S 4
 #define RIGHT_S 5
 #define TURN_RIGHT_S 6
+
+
 
 
 uint8_t fsm_state = STOP_S;
